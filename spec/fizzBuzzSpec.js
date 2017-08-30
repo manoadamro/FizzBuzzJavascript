@@ -13,6 +13,7 @@ describe ('FizzBuzz', function () {
       }
     });
 
+
     it ('Returns Buzz when divisible by 5 and not 3', function () {
       for (var i = 0; i < five.length; i++) {
         expect(fizzBuzz.process(five[i])).toEqual('Buzz')
